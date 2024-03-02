@@ -50,10 +50,10 @@ Valores ASCII de 0 a 127:
 
 **Questão 6**
 Para resolver essa questão foi utilizado o seguinte teorema.
+"
 Temorema(ALgortmo da Divisão para o cálculo do mdc): Considere a,b,q,r ∈ ℝ com b ≠ 0, 0 ≤ r < b e a = bq+r. então
-            
-            mdc(a,b) = mdc(b,r).
-
+mdc(a,b) = mdc(b,r).
+"
 
 
 
