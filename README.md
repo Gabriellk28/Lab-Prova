@@ -60,7 +60,7 @@ Valores ASCII de 0 a 127:
 
 Este código encontra todos os triplos pitagóricos (a, b, c) até um determinado valor n, onde a^2 + b^2 = c^2.
 
-Funcionalidades:
+**Funcionalidades:**
 
 Encontra todos os triplos pitagóricos até um valor n especificado pelo usuário.
 Imprime os triplos pitagóricos encontrados em uma tabela formatada.
@@ -76,7 +76,7 @@ Triplos pitagóricos até 10:
 (5, 12, 13)
 (6, 8, 10)
 ```
-**Questão 4**
+**Questão 4:**
 
 **Descrição:**
 
@@ -86,7 +86,7 @@ Este código converte um número decimal em numeral romano usando um algoritmo s
 
 Imprime uma tabela com os números decimais de 1 a 100 e seus equivalentes romanos.
 
-**Questão 5**
+**Questão 5:**
 
 **Descrição:**
 
