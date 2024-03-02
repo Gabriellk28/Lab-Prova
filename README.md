@@ -1,28 +1,35 @@
-Questão 1:
-Resumo:
+## Desenha Asteriscos com Recursão
+
+**Descrição:**
 
 Este código desenha uma sequência de asteriscos na tela usando recursão.
 
-Funcionalidade:
+**Funcionalidade:**
 
-Solicita ao usuário que digite um número.
-Desenha uma sequência de asteriscos com o número especificado.
-Funcionamento:
+* Solicita ao usuário que digite um número.
+* Desenha uma sequência de asteriscos com o número especificado.
 
-A função desenha é chamada com o número como parâmetro.
-Se o número for maior que zero, a função chama a si mesma com o número anterior como parâmetro.
-Após a recursão, a função imprime um asterisco.
-O processo se repete até que o número seja igual a zero.
-Exemplo:
+**Funcionamento:**
 
-Se o usuário digitar 5, o código desenhará ***** na tela.
+1. A função `desenha` é chamada com o número como parâmetro.
+2. Se o número for maior que zero, a função chama a si mesma com o número anterior como parâmetro.
+3. Após a recursão, a função imprime um asterisco.
+4. O processo se repete até que o número seja igual a zero.
 
-Benefícios da Recursão:
+**Exemplo:**
 
-Simplifica o código.
-Evita a repetição de código.
-Torna o código mais legível.
-Observações:
+Se o usuário digitar 5, o código desenhará `*****` na tela.
 
-O código pode ser facilmente modificado para desenhar outros tipos de sequências.
-A recursão pode ser ineficiente para grandes valores de numero.
+**Benefícios da Recursão:**
+
+* Simplifica o código.
+* Evita a repetição de código.
+* Torna o código mais legível.
+
+**Observações:**
+
+* O código pode ser facilmente modificado para desenhar outros tipos de sequências.
+* A recursão pode ser ineficiente para grandes valores de `numero`.
+
+
+
