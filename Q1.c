@@ -2,7 +2,7 @@
 
 void desenha(int numero)
 {
-    if (numero > 0) {
+    if(numero > 0){
         desenha(numero - 1);
         printf("*");
     }
