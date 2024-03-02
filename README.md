@@ -69,12 +69,12 @@ Exemplo de uso:
 **Exemplo de Execução:**
 
 Informe o valor de n: 10
-
+```
 Triplos pitagóricos até 10:
 (3, 4, 5)
 (5, 12, 13)
 (6, 8, 10)
-
+```
 **Questão 6**
 Para resolver essa questão foi utilizado o seguinte teorema.
 "
