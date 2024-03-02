@@ -1,4 +1,4 @@
-![image](https://github.com/Gabriellk28/Lab-Prova/assets/138235240/a7c53b92-7987-4699-98f7-5538314eb4d0)## Prova 1- LABORATÓRIO DE ALGORITMOS E ESTRUTURAS DE DADOS II
+## Prova 1- LABORATÓRIO DE ALGORITMOS E ESTRUTURAS DE DADOS II
 
 **Questão 1:**
 
