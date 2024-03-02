@@ -68,13 +68,49 @@ Exemplo de uso:
 
 **Exemplo de Execução:**
 
-Informe o valor de n: 10
 ```
+Informe o valor de n: 10
+
 Triplos pitagóricos até 10:
 (3, 4, 5)
 (5, 12, 13)
 (6, 8, 10)
 ```
+**Questão 4**
+
+**Descrição:**
+
+Este código converte um número decimal em numeral romano usando um algoritmo simples.
+
+**Funcionalidades:**
+
+Imprime uma tabela com os números decimais de 1 a 100 e seus equivalentes romanos.
+
+**Questão 5**
+
+**Descrição:**
+
+O código encontra as raízes reais de uma função do segundo grau (equação quadrática) da forma `ax^2 + bx + c = 0`, onde `a`, `b` e `c` são coeficientes reais e `x` é a variável.
+
+**Funcionalidades:**
+
+* Lê os coeficientes `a`, `b` e `c` da função do segundo grau.
+* Calcula o discriminante `delta` usando a fórmula `b^2 - 4ac`.
+* Verifica se a função possui raízes reais.
+* Se a função possui raízes reais, calcula as raízes usando a fórmula de Bhaskara: `x = (-b ± √delta) / (2a)`.
+* Imprime as raízes reais da função.
+
+**Funcionamento:**
+
+1. O código lê os coeficientes `a`, `b` e `c` da função do segundo grau.
+2. Calcula o discriminante `delta`.
+3. Se o discriminante for menor que zero, a função não possui raízes reais e o programa termina.
+4. Se o discriminante for maior ou igual a zero, o programa calcula as raízes reais usando a fórmula de Bhaskara.
+5. As raízes reais são impressas na tela.
+
+
+
+
 **Questão 6**
 Para resolver essa questão foi utilizado o seguinte teorema.
 "
