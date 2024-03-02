@@ -1,22 +1,31 @@
 #include <stdio.h>
 
+// Função para desenhar uma sequência de asteriscos
 void desenha(int numero)
 {
-    if(numero > 0){
-        desenha(numero - 1);
-        printf("*");
-    }
+  // Se o número for maior que zero
+  if (numero > 0) {
+    // Chama a função recursivamente com o número anterior
+    desenha(numero - 1);
+    // Imprime um asterisco
+    printf("*");
+  }
 }
 
 int main(void)
 {
-    int num = 0;
+  int num = 0; // Variável para armazenar o número digitado pelo usuário
 
-    printf("Informe o número: ");
-    scanf("%d", &num);
+  // Solicita ao usuário que digite um número
+  printf("Informe o número: ");
+  // Lê o número digitado pelo usuário
+  scanf("%d", &num);
 
-    desenha(num);
-    printf("\n");
+  // Chama a função `desenha` com o número digitado como parâmetro
+  desenha(num);
 
-    return 0;
+  // Imprime uma nova linha
+  printf("\n");
+
+  return 0;
 }
