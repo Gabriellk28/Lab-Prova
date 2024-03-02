@@ -22,16 +22,33 @@ Este código desenha uma sequência de asteriscos na tela usando recursão.
 
 Se o usuário digitar 5, o código desenhará `*****` na tela.
 
-**Benefícios da Recursão:**
+**Questão 2:**
 
-* Simplifica o código.
-* Evita a repetição de código.
-* Torna o código mais legível.
+**Descrição:**
 
-**Observações:**
+Este código imprime a tabela ASCII de 0 a 127, mostrando o código ASCII e o caractere correspondente para cada valor.
 
-* O código pode ser facilmente modificado para desenhar outros tipos de sequências.
-* A recursão pode ser ineficiente para grandes valores de `numero`.
+**Funcionalidade:**
+
+* Imprime o cabeçalho da tabela "Valores ASCII de 0 a 127:".
+* Itera de 0 a 127 e, para cada valor:
+    * Imprime o código ASCII e o caractere correspondente lado a lado.
+    * Se o número de caracteres na linha for igual ao limite definido, imprime uma nova linha.
+
+**Exemplo de Execução:**
+
+```
+Valores ASCII de 0 a 127:
+
+ 0: NUL    1: SOH    2: STX    3: ETX    4: EOT    5: ENQ    6: ACK    7: BEL  
+ 8: BS     9: HT    10: LF    11: VT    12: FF    13: CR    14: SO    15: SI   
+16: DLE   17: DC1   18: DC2   19: DC3   20: DC4   21: NAK   22: SYN   23: ETB  
+24: CAN   25: EM    26: SUB   27: ESC   28: FS    29: GS    30: RS    31: US   
+...
+120: x    121: y    122: z    123: {    124: |    125: }    126: ~    127: DEL  
+```
+
+
 
 
 
