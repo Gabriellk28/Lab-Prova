@@ -114,13 +114,13 @@ O código encontra as raízes reais de uma função do segundo grau (equação q
 - O programa cálcula o máximo divisor comum(MDC) entre dois números inteiros, por meio de uma função recursiva.
 - Para resolver essa questão foi utilizado o seguinte teorema.
 
-"
+```markdown
+# Teorema (Algoritmo da Divisão para o cálculo do MDC)
 
-Temorema(Algortmo da Divisão para o cálculo do mdc): Considere a,b,q,r ∈ ℝ com b ≠ 0, 0 ≤ r < b e a = bq+r. então
+Considere a,b,q,r ∈ ℝ com b ≠ 0, 0 ≤ r < b e a = bq+r. Então
 
 mdc(a,b) = mdc(b,r).
 
-"
 
 Referências:
 
