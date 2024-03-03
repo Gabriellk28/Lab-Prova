@@ -115,6 +115,7 @@ O código encontra as raízes reais de uma função do segundo grau (equação q
 - Para resolver essa questão foi utilizado o seguinte teorema.
 
 "
+
 Temorema(Algortmo da Divisão para o cálculo do mdc): Considere a,b,q,r ∈ ℝ com b ≠ 0, 0 ≤ r < b e a = bq+r. então
 
 
