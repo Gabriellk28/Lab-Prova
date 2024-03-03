@@ -3,7 +3,6 @@
 **Questão 1:**
 
 **Descrição:**
-
 Este código desenha uma sequência de asteriscos na tela usando recursão.
 
 **Funcionalidade:**
@@ -25,7 +24,6 @@ Se o usuário digitar 5, o código desenhará `*****` na tela.
 **Questão 2:**
 
 **Descrição:**
-
 Este código imprime a tabela ASCII de 0 a 127, mostrando o código ASCII e o caractere correspondente para cada valor.
 
 **Funcionalidade:**
@@ -57,7 +55,6 @@ Valores ASCII de 0 a 127:
 **Questão 3:**
 
 **Descrição:**
-
 Este código encontra todos os triplos pitagóricos (a, b, c) até um determinado valor n, onde a^2 + b^2 = c^2.
 
 **Funcionalidades:**
@@ -79,7 +76,6 @@ Triplos pitagóricos até 10:
 **Questão 4:**
 
 **Descrição:**
-
 Este código converte um número decimal em numeral romano usando um algoritmo simples.
 
 **Funcionalidades:**
@@ -89,7 +85,6 @@ Imprime uma tabela com os números decimais de 1 a 100 e seus equivalentes roman
 **Questão 5:**
 
 **Descrição:**
-
 O código encontra as raízes reais de uma função do segundo grau (equação quadrática) da forma `ax^2 + bx + c = 0`, onde `a`, `b` e `c` são coeficientes reais e `x` é a variável.
 
 **Funcionalidades:**
@@ -112,12 +107,22 @@ O código encontra as raízes reais de uma função do segundo grau (equação q
 
 
 **Questão 6**
-Para resolver essa questão foi utilizado o seguinte teorema.
-"
-Temorema(ALgortmo da Divisão para o cálculo do mdc): Considere a,b,q,r ∈ ℝ com b ≠ 0, 0 ≤ r < b e a = bq+r. então
-mdc(a,b) = mdc(b,r).
-"
 
+
+**Descrição:**
+
+- O programa cálcula o máximo divisor comum(MDC) entre dois números inteiros, por meio de uma função recursiva.
+- Para resolver essa questão foi utilizado o seguinte teorema.
+
+
+Temorema(Algortmo da Divisão para o cálculo do mdc): Considere a,b,q,r ∈ ℝ com b ≠ 0, 0 ≤ r < b e a = bq+r. então
+
+
+mdc(a,b) = mdc(b,r).
+
+
+Referências:
+[1] Elementos de Aritmética e Álgebra
 
 
 
