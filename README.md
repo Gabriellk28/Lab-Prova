@@ -104,9 +104,7 @@ O código encontra as raízes reais de uma função do segundo grau (equação q
 5. As raízes reais são impressas na tela.
 
 
-
-
-#Questão 6
+# Questão 6
 
 
 **Descrição:**
@@ -115,16 +113,43 @@ O código encontra as raízes reais de uma função do segundo grau (equação q
 - Para resolver essa questão foi utilizado o seguinte teorema.
 
 ```markdown
-# Teorema (Algoritmo da Divisão para o cálculo do MDC)
+# Teorema (Algoritmo da Divisão para o cálculo do MDC):
+
 
 Considere a,b,q,r ∈ ℝ com b ≠ 0, 0 ≤ r < b e a = bq+r. Então
 
 mdc(a,b) = mdc(b,r).
+```
 
+# Questão 7
+
+
+**Descrição:**
+
+- O programa implementa a função isPrime(n) que retorna 1 caso n for primo e 0 caso n não for primo.
+- Para resolver essa quetão foi utilizada a seguinte definição de número primo.
+
+
+# Questão 8
+
+
+**Descrição:**
+
+
+# Questão 9
+
+
+**Descrição:**
+
+
+# Questão 10
+
+
+**Descrição:**
 
 Referências:
 
-[1] Vieira, F., e Carvalho, R. A. (2020). Elementos de Aritmética e Álgebra. SBM.
+[1] Vieira, F., e Carvalho, R. A. (2020). Elementos de Aritmética e Álgebra. Sociedade Brasileira de Matemática.
 
 
 
