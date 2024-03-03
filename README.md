@@ -106,7 +106,7 @@ O código encontra as raízes reais de uma função do segundo grau (equação q
 
 
 
-**Questão 6**
+#Questão 6
 
 
 **Descrição:**
@@ -114,15 +114,16 @@ O código encontra as raízes reais de uma função do segundo grau (equação q
 - O programa cálcula o máximo divisor comum(MDC) entre dois números inteiros, por meio de uma função recursiva.
 - Para resolver essa questão foi utilizado o seguinte teorema.
 
-
+"
 Temorema(Algortmo da Divisão para o cálculo do mdc): Considere a,b,q,r ∈ ℝ com b ≠ 0, 0 ≤ r < b e a = bq+r. então
 
 
-mdc(a,b) = mdc(b,r).
-
+                    mdc(a,b) = mdc(b,r).
+"
 
 Referências:
-[1] Elementos de Aritmética e Álgebra
+
+[1] Vieira, F., e Carvalho, R. A. (2020). Elementos de Aritmética e Álgebra. SBM.
 
 
 
