@@ -134,7 +134,7 @@ O programa cálcula o máximo divisor comum(MDC) entre dois números inteiros, p
 **Funcionamento:**
 O Máximo Divisor Comum (MDC) de dois números inteiros `a` e `b` é o maior número inteiro que divide ambos `a` e `b` sem deixar resto. A função `mdc(a, b)` utiliza o `Algoritmo de Euclides` para calcular o MDC de forma recursiva. O algoritmo funciona da seguinte maneira:
 
-1. Se `b` for igual a zero, o MDC é `a`.
+1. Se `b` for igual a zero, o MDC é `a`.4
 2. Caso contrário, calcula-se o MDC de `b` e o resto da divisão de `a` por `b`.
 
 **Exemplo de Execução:**
@@ -218,7 +218,7 @@ Em seguida, verifica se `m` é maior que zero e `n` é igual a zero. Neste caso,
 2. Chamada Recursiva:
 Se não estiver em nenhum dos casos base, a função chama recursivamente `A(m - 1, A(m, n - 1))`. Isso representa a parte mais complexa da função de Ackermann, onde a função é chamada recursivamente com valores de `m` e `n` que diminuem a cada chamada até alcançarem um caso base.
 
-- Função calcularA(a, b)
+- Função calcularA(a, b):
 1. Iteração sobre os Valores de `m` e `n`:
 - A função `calcularA(a, b)` recebe dois números, `a` e `b`, que definem o intervalo de valores de `m` e `n` para os quais a função de Ackermann será calculada.
 - A função utiliza dois loops for aninhados para iterar sobre todos os pares de valores de `m` e `n` dentro do intervalo especificado.
