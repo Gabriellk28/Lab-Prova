@@ -3,7 +3,7 @@
 **Questão 1:**
 
 **Descrição:**
-Este código desenha uma sequência de asteriscos na tela usando recursão.
+Este código desenha uma sequência de asteriscos na tela utilizando uma função recursiva.
 
 **Funcionalidade:**
 
@@ -104,52 +104,63 @@ O código encontra as raízes reais de uma função do segundo grau (equação q
 5. As raízes reais são impressas na tela.
 
 
-# Questão 6
-
+**Questão 6**
 
 **Descrição:**
+O programa cálcula o máximo divisor comum(MDC) entre dois números inteiros, por meio de uma função recursiva.
 
-- O programa cálcula o máximo divisor comum(MDC) entre dois números inteiros, por meio de uma função recursiva.
-- Para resolver essa questão foi utilizado o seguinte teorema.
+**Funcionamento:**
+O Máximo Divisor Comum (MDC) de dois números inteiros aa e bb é o maior número inteiro que divide ambos aa e bb sem deixar resto. A função mdc(a, b) utiliza o algoritmo de Euclides para calcular o MDC de forma recursiva. O algoritmo funciona da seguinte maneira:
 
-```markdown
-# Teorema (Algoritmo da Divisão para o cálculo do MDC):
+- Se bb for igual a zero, o MDC é aa.
+- Caso contrário, calcula-se o MDC de bb e o resto da divisão de aa por bb.
 
-
-Considere a,b,q,r ∈ ℝ com b ≠ 0, 0 ≤ r < b e a = bq+r. Então
-
-mdc(a,b) = mdc(b,r).
+**Exemplo de Execução:**
+```
+Informe dois números inteiros:
+4
+10
+MDC(4, 10) = 2
 ```
 
-# Questão 7
-
-
-**Descrição:**
-
-- O programa implementa a função isPrime(n) que retorna 1 caso n for primo e 0 caso n não for primo.
-- Para resolver essa quetão foi utilizada a seguinte definição de número primo.
-
-
-# Questão 8
-
+**Questão 7**
 
 **Descrição:**
+O programa cálcula se um número n qualquer é primo. Para isso foi implementado a função isPrime(n) que retorna 1 caso n for primo e 0 caso n não for primo.
 
+**Exemplo de Execução:**
+```
+Digite um número: 7
+7 é primo
 
-# Questão 9
+```
 
+**Questão 8**
 
 **Descrição:**
+O programa recebe como entrada um número e retorna outro número com os valores do primeiro invertidos.
+
+**Exemplo de Execução:**
+```
+Informe um número inteiro: 56478
+Número com os dígitos invertidos: 87465
+```
 
 
-# Questão 10
-
+**Questão 9**
 
 **Descrição:**
+O programa recebe como entrada dois valores e cálcula recursivamente a multiplicação entre eles.
 
-Referências:
+**Exemplo de Execução:**
+```
+Digite dois números: 
+5
+9
+O produto de 5 e 9 é: 45
+```
 
-[1] Vieira, F., e Carvalho, R. A. (2020). Elementos de Aritmética e Álgebra. Sociedade Brasileira de Matemática.
+**Questão 10**
 
-
-
+**Descrição:**
+O programa 

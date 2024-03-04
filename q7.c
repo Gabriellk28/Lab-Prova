@@ -16,7 +16,7 @@ int isPrime(int n, int divisor){
 int main()
 {
   int num, retorno;
-  printf("Digite um número inteiro positivo: ");
+  printf("Digite um número: ");
   scanf("%d", &num);
 
   retorno = isPrime(num, num/2);

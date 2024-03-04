@@ -22,7 +22,7 @@ int main(void) {
   int num = 0;
 
   // Solicita ao usuário o número original
-  printf("Informe um número inteiro: ");
+  printf("Informe um número: ");
   scanf(" %d", &num);
 
   // Chama a função para inverter os dígitos do número

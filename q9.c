@@ -15,8 +15,8 @@ int produto(int x1, int x2) {
 
 int main() {
     int x1, x2;
-    printf("Digite dois números inteiros: ");
-    scanf("%d %d", &x1, &x2);
+    printf("Digite dois números:\n");
+    scanf(" %d %d", &x1, &x2);
 
     printf("O produto de %d e %d é: %d\n", x1, x2, produto(x1, x2));
 
