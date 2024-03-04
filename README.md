@@ -112,8 +112,8 @@ O programa cálcula o máximo divisor comum(MDC) entre dois números inteiros, p
 **Funcionamento:**
 O Máximo Divisor Comum (MDC) de dois números inteiros aa e bb é o maior número inteiro que divide ambos aa e bb sem deixar resto. A função mdc(a, b) utiliza o algoritmo de Euclides para calcular o MDC de forma recursiva. O algoritmo funciona da seguinte maneira:
 
-- Se bb for igual a zero, o MDC é aa.
-- Caso contrário, calcula-se o MDC de bb e o resto da divisão de aa por bb.
+1. Se `bb` for igual a zero, o MDC é `a`.
+2. Caso contrário, calcula-se o MDC de `b` e o resto da divisão de `a` por `b`.
 
 **Exemplo de Execução:**
 ```
@@ -127,6 +127,14 @@ MDC(4, 10) = 2
 
 **Descrição:**
 O programa cálcula se um número n qualquer é primo. Para isso foi implementado a função isPrime(n) que retorna 1 caso n for primo e 0 caso n não for primo.
+
+**Funcionamento:**
+Para determinar se um número nn é primo, o programa utiliza a função isPrime(n, divisor). A lógica por trás dessa função é:
+
+1. Se n<sup>n</sup> for menor ou igual a 1, ele não é primo e retorna 0.
+2. Se o divisor for igual a 1, o número é primo e retorna 1.
+3. Se nn for divisível por divisordivisor, ele não é primo e retorna 0.
+4. Caso contrário, a função é chamada recursivamente com nn e divisor−1divisor−1.
 
 **Exemplo de Execução:**
 ```
