@@ -21,7 +21,7 @@ Informe o número: 10
 **Questão 2:**
 
 **Descrição:**
-Este código imprime a tabela ASCII de 0 a 127, mostrando o código ASCII e o caractere correspondente para cada valor.
+Este código imprime a tabela ASCII de `0 a 127`, mostrando o código ASCII e o caractere correspondente para cada valor.
 
 **Lógica de Funcionamento:**
 
@@ -107,7 +107,7 @@ Número Decimal  Número Romano
 **Questão 5:**
 
 **Descrição:**
-O código encontra as raízes reais de uma função do segundo grau (equação quadrática) da forma `ax^2 + bx + c = 0`, onde `a`, `b` e `c` são coeficientes reais e `x` é a variável.
+O código encontra as raízes reais de uma função do segundo grau (equação quadrática) da forma `ax² + bx + c = 0`, onde `a`, `b` e `c` são coeficientes reais e `x` é a variável.
 
 **Lógica de Funcionalidade:**
 
@@ -132,7 +132,7 @@ As raízes da função são: 2.00 e 1.00
 O programa cálcula o máximo divisor comum(MDC) entre dois números inteiros, por meio de uma função recursiva.
 
 **Funcionamento:**
-O Máximo Divisor Comum (MDC) de dois números inteiros `a` e `b` é o maior número inteiro que divide ambos `a` e `b` sem deixar resto. A função `mdc(a, b)` utiliza o algoritmo de Euclides para calcular o MDC de forma recursiva. O algoritmo funciona da seguinte maneira:
+O Máximo Divisor Comum (MDC) de dois números inteiros `a` e `b` é o maior número inteiro que divide ambos `a` e `b` sem deixar resto. A função `mdc(a, b)` utiliza o `Algoritmo de Euclides` para calcular o MDC de forma recursiva. O algoritmo funciona da seguinte maneira:
 
 1. Se `b` for igual a zero, o MDC é `a`.
 2. Caso contrário, calcula-se o MDC de `b` e o resto da divisão de `a` por `b`.
@@ -208,21 +208,21 @@ O produto de 5 e 9 é: 45
 **Questão 10**
 
 **Descrição:**
-O programa em C calcula a função recursiva de Ackermann `A(m,n)` para valores mm e nn fornecidos pelo usuário.
+O programa em C calcula a função recursiva de Ackermann `A(m,n)` para valores `m` e `n` fornecidos pelo usuário.
 
 **Funcionamento:**
 - Função A(m, n):
 1. Verificação de Casos Base:
-A função A(m, n) começa verificando se o valor de m é igual a zero. Se for, ela retorna n + 1, que é um dos casos base da função de Ackermann.
-Em seguida, verifica se m é maior que zero e n é igual a zero. Neste caso, ela chama recursivamente A(m - 1, 1), outro caso base da função de Ackermann.
+A função `A(m, n)` começa verificando se o valor de `m` é igual a zero. Se for, ela retorna `n + 1`, que é um dos casos base da função de Ackermann.
+Em seguida, verifica se `m` é maior que zero e `n` é igual a zero. Neste caso, ela chama recursivamente `A(m - 1, 1)`, outro caso base da função de Ackermann.
 2. Chamada Recursiva:
-Se não estiver em nenhum dos casos base, a função chama recursivamente A(m - 1, A(m, n - 1)). Isso representa a parte mais complexa da função de Ackermann, onde a função é chamada recursivamente com valores de m e n que diminuem a cada chamada até alcançarem um caso base.
+Se não estiver em nenhum dos casos base, a função chama recursivamente `A(m - 1, A(m, n - 1))`. Isso representa a parte mais complexa da função de Ackermann, onde a função é chamada recursivamente com valores de `m` e `n` que diminuem a cada chamada até alcançarem um caso base.
 
 - Função calcularA(a, b)
 1. Iteração sobre os Valores de `m` e `n`:
-- A função calcularA(a, b) recebe dois números, a e b, que definem o intervalo de valores de m e n para os quais a função de Ackermann será calculada.
-- A função utiliza dois loops for aninhados para iterar sobre todos os pares de valores de m e n dentro do intervalo especificado.
+- A função `calcularA(a, b)` recebe dois números, `a` e `b`, que definem o intervalo de valores de `m` e `n` para os quais a função de Ackermann será calculada.
+- A função utiliza dois loops for aninhados para iterar sobre todos os pares de valores de `m` e `n` dentro do intervalo especificado.
 
 2. Cálculo dos Valores da Função de Ackermann:
-- Para cada par de valores de m e n, a função chama a função A(m, n) para calcular o valor correspondente da função de Ackermann.
+- Para cada par de valores de `m` e `n`, a função chama a função `A(m, n)` para calcular o valor correspondente da função de Ackermann.
 - Os resultados são armazenados temporariamente e, em seguida, impressos na tela.
