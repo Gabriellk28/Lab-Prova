@@ -131,10 +131,10 @@ O programa cálcula se um número n qualquer é primo. Para isso foi implementad
 **Funcionamento:**
 Para determinar se um número nn é primo, o programa utiliza a função isPrime(n, divisor). A lógica por trás dessa função é:
 
-1. Se n<sup>n</sup> for menor ou igual a 1, ele não é primo e retorna 0.
+1. Se `n` for menor ou igual a 1, ele não é primo e retorna 0.
 2. Se o divisor for igual a 1, o número é primo e retorna 1.
-3. Se nn for divisível por divisordivisor, ele não é primo e retorna 0.
-4. Caso contrário, a função é chamada recursivamente com nn e divisor−1divisor−1.
+3. Se `n` for divisível por `divisor`, ele não é primo e retorna 0.
+4. Caso contrário, a função é chamada recursivamente com `n` e `divisor−1`.
 
 **Exemplo de Execução:**
 ```
@@ -148,6 +148,15 @@ Digite um número: 7
 **Descrição:**
 O programa recebe como entrada um número e retorna outro número com os valores do primeiro invertidos.
 
+**Funcionamento:**
+A função inverteDigitos(num) é responsável por inverter os dígitos de um número inteiro. Ela opera da seguinte forma:
+
+1. Inicializa uma variável `invertido` para armazenar o número invertido.
+2. Usa um laço `while` para iterar enquanto o número original for maior que zero.
+3. A cada iteração, multiplica o número invertido por 10 e adiciona o último dígito do número original.
+4. Divide o número original por 10 para remover o último dígito.
+5. Retorna o número invertido.
+
 **Exemplo de Execução:**
 ```
 Informe um número inteiro: 56478
@@ -160,6 +169,14 @@ Número com os dígitos invertidos: 87465
 **Descrição:**
 O programa recebe como entrada dois valores e cálcula recursivamente a multiplicação entre eles.
 
+**Funcionamento:**
+A função `produto(x1, x2)` é responsável por calcular o produto de dois números inteiros. Ela opera da seguinte forma:
+
+1. Se um dos números fornecidos for zero, o produto será zero, então há um caso base que retorna 0.
+2. Se o segundo número for 1, o produto será o próprio primeiro número, então há outro caso base que retorna o primeiro número.
+3. Caso contrário, a função chama a si mesma recursivamente, somando o primeiro número a ele mesmo (x2 - 1) vezes.
+4. O resultado é a soma dos primeiros números repetidos x2 vezes.
+
 **Exemplo de Execução:**
 ```
 Digite dois números: 
@@ -171,4 +188,21 @@ O produto de 5 e 9 é: 45
 **Questão 10**
 
 **Descrição:**
-O programa 
+O programa em C calcula a função recursiva de Ackermann `A(m,n)` para valores mm e nn fornecidos pelo usuário.
+
+**Funcionamento:**
+- Função A(m, n):
+1. Verificação de Casos Base:
+A função A(m, n) começa verificando se o valor de m é igual a zero. Se for, ela retorna n + 1, que é um dos casos base da função de Ackermann.
+Em seguida, verifica se m é maior que zero e n é igual a zero. Neste caso, ela chama recursivamente A(m - 1, 1), outro caso base da função de Ackermann.
+2. Chamada Recursiva:
+Se não estiver em nenhum dos casos base, a função chama recursivamente A(m - 1, A(m, n - 1)). Isso representa a parte mais complexa da função de Ackermann, onde a função é chamada recursivamente com valores de m e n que diminuem a cada chamada até alcançarem um caso base.
+
+- Função calcularA(a, b)
+1. Iteração sobre os Valores de `m` e `n`:
+- A função calcularA(a, b) recebe dois números, a e b, que definem o intervalo de valores de m e n para os quais a função de Ackermann será calculada.
+- A função utiliza dois loops for aninhados para iterar sobre todos os pares de valores de m e n dentro do intervalo especificado.
+
+2. Cálculo dos Valores da Função de Ackermann:
+- Para cada par de valores de m e n, a função chama a função A(m, n) para calcular o valor correspondente da função de Ackermann.
+- Os resultados são armazenados temporariamente e, em seguida, impressos na tela.
