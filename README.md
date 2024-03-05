@@ -70,7 +70,6 @@ A função `encontrarTriplosPitagoricos(n)` é responsável por encontrar triplo
 Informe o valor de n: 10
 Triplos pitagóricos até 10:
 (3, 4, 5)
-(5, 12, 13)
 (6, 8, 10)
 ```
 **Questão 4:**
